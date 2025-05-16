@@ -1,14 +1,24 @@
 
+#avatar {
+display: flex;
+width: 112px;
+height: 112px;
+
+}
+
+.primary-menu {
+margin-top: 120px;
+align-items: center;
+}
+
 header {
-  margin: 120px auto 94px;
-  display: flex;
+  display:inline-block;
   justify-content: center;
   text-align: center;
 
 
 h1 {
   font: var(--text-subtitle);
-  font-size: 24px;
   color: var(--color-base-gray-500);
   padding-top: 56px;
  }
@@ -25,13 +35,52 @@ h1 {
     color: var(--color-base-gray-400);
   }
 
-
+  span:nth-last-child(1) {
+    color: var(--color-red) ;
+  }
 }
 
-#avatar {
-display: flex;
-width: 112px;
-height: 112px;
+.tags {
+  margin-top: 80px ;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 94px;
+  
+  div {
+    display: flex;
+    padding: 8px 16px;
 
+    background-color: var(--color-base-gray-300) ;
+    font: var(--text-md);
+    border-radius: 999px;
+    justify-items: center;
 }
 
+ div:hover{
+  background-color:rgba(135, 142, 161, 0.349);
+ }
+
+p{
+  font: var(--text-md);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+ }
+}
+
+.animation{
+  display: inline-block;
+  width: 60px;
+  animation: pulo 1s infinite ease-in-out;
+    }
+
+    @keyframes pulo {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-15px);
+      }
+    }

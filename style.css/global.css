@@ -1,7 +1,8 @@
-* {
+ * {
 margin: 0%;
 padding: 0%;
 box-sizing: border-box;
+
 }
 
 :root {
@@ -20,26 +21,34 @@ box-sizing: border-box;
   --color-base-gray-600: #E2E4E9;
 
   --font-family: "Asap", sans-serif;
-  --text-title-lg: 700 56px 120% var(--font-family);
-  --text-title-md: 700 24px 120% var(--font-family);
-  --text-title-sm: 700 16px 120% var(--font-family);
+  --text-title-lg: 700 56px/120% var(--font-family);
+  --text-title-md: 700 24px/120% var(--font-family);
+  --text-title-sm: 700 16px/120% var(--font-family);
 
   --font-family2: "Inconsolata", monospace;
-  --text-subtitle: 400 20px 120% var(--font-family2);
+  --text-subtitle: 400 20px/120% var(--font-family2);
 
   --font-family3: "Maven Pro", sans-serif;
-  --text-md: 400 16px 140% var(--font-family3); 
-  --text-sm: 400 14px 140% var(--font-family3);   
-
+  --text-md: 400 16px/140% var(--font-family3); 
+  --text-sm: 400 14px/140% var(--font-family3);   
 }
 
+
+body{
+  background-color: var(--color-base-gray-100);
+}
 
 h1, h2, h3 {
   font: inherit;
 }
 
 .container {
-width: 1366px;
+width: 100%;
 height: 750px;
+
+background-image: url(../assets/Images/Background_Intro.png);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 
 }
