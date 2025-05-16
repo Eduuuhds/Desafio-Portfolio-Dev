@@ -1,0 +1,18 @@
+main {
+  display: block;
+  margin: 60px auto 54px;
+  justify-content: center;
+  text-align: center;
+  
+
+  span{
+    font: var(--text-subtitle);
+    color: var(--color-red);
+  }
+
+  h1{
+    font: var(--text-title-md);
+    font-size: 24px;
+    color: var(--color-base-gray-600);
+  }
+}
