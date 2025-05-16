@@ -1,11 +1,14 @@
 main {
   display: block;
-  margin: 60px auto 54px;
+  
+  max-width: 1040px;
+  height: 584px;
+
+  margin: 60px auto;
   justify-content: center;
   text-align: center;
-  
 
-  span{
+    span{
     font: var(--text-subtitle);
     color: var(--color-red);
   }
@@ -15,4 +18,109 @@ main {
     font-size: 24px;
     color: var(--color-base-gray-600);
   }
+}
+
+
+.grid {
+  display: grid;
+  padding-bottom: 144px;
+  margin: 56px auto;
+  text-align: start;
+  gap: 24px;
+
+  grid-template-columns: 330px 330px 330px;
+  grid-template-areas:
+  "pj1 pj2 pj3"
+  "pj4 pj5 pj6";
+
+  img{
+    width: 306px;
+    border-radius: 6px;
+  }
+
+}
+
+.grid-cont{
+  margin-top: 20px;
+  
+
+  span{
+  font: var(--text-title-sm);
+  color: var(--color-base-gray-600);
+  
+  }
+
+  h1{
+    padding-top: 8px;
+    font: var(--text-sm);
+    color: var(--color-base-gray-600);
+  }
+
+
+}
+
+.card1{
+grid-area: pj1;
+background-color: var(--color-base-gray-300);
+padding: 12px;
+gap: 20px;
+border-radius: 12px;
+
+max-width: 330px;
+height: 280px;
+}
+
+.card2{
+grid-area: pj2;
+background-color: var(--color-base-gray-300);
+padding: 12px;
+gap: 20px;
+border-radius: 12px;
+
+max-width: 330px;
+height: 280px;
+}
+
+.card3{
+  grid-area: pj3;
+  background-color: var(--color-base-gray-300);
+padding: 12px;
+gap: 20px;
+border-radius: 12px;
+
+max-width: 330px;
+height: 280px;
+}
+
+.card4{
+  grid-area: pj4;
+  background-color: var(--color-base-gray-300);
+padding: 12px;
+gap: 20px;
+border-radius: 12px;
+
+max-width: 330px;
+height: 280px;
+}
+
+.card5{
+  grid-area: pj5;
+  background-color: var(--color-base-gray-300);
+padding: 12px;
+gap: 20px;
+border-radius: 12px;
+
+max-width: 330px;
+height: 280px;
+}
+
+.card6{
+  grid-area: pj6;
+  background-color: var(--color-base-gray-300);
+padding: 12px;
+gap: 20px;
+border-radius: 12px;
+
+max-width: 330px;
+height: 280px;
 }
