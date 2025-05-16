@@ -1,8 +1,7 @@
 main {
   display: block;
-  
   max-width: 1040px;
-  height: 584px;
+  height: 817px;
 
   margin: 60px auto;
   justify-content: center;
@@ -15,15 +14,14 @@ main {
 
   h1{
     font: var(--text-title-md);
-    font-size: 24px;
     color: var(--color-base-gray-600);
+    font-size: 24px;
   }
 }
 
 
 .grid {
   display: grid;
-  padding-bottom: 144px;
   margin: 56px auto;
   text-align: start;
   gap: 24px;
