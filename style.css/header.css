@@ -1,54 +1,37 @@
 
 header {
+  margin: 120px auto 94px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 
-  margin-bottom: 80px;
-  
-  h1 {
+
+h1 {
   font: var(--text-subtitle);
+  font-size: 24px;
   color: var(--color-base-gray-500);
+  padding-top: 56px;
  }
 
  h2 {
   font: var(--text-title-lg);
+  font-size: 67px;
   color: var(--color-base-gray-600);
+  padding-bottom: 20px;
   }
 
   p {
     font: var(--text-sm);
     color: var(--color-base-gray-400);
   }
+
+
 }
 
 #avatar {
-  display: inline-block;
-  max-width: 100%;
-  object-fit: cover;
+display: flex;
+width: 112px;
+height: 112px;
 
 }
 
-
-.tag{
-  display: flex;
-  justify-content: center;
-  gap: 16px;
-
-  span{
-    padding: 8px 16px;
-    background-color: var(--color-base-gray-300);
-    border-radius: 999px;
-    width: 105px;
-    height: 40px;
-
-    align-items: center;
-    display: flex;
-    justify-content: center;
-   
-  }
-
-  p {
-  font: var(--text-title-md);
-  color: var(--color-base-gray-500);
-  }
-
-
-}
