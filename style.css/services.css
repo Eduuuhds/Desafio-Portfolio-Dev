@@ -1,5 +1,5 @@
 .services{
-  display: flex;
+  display: block;
   padding-top: 88px;
 
   max-width: 100%;
@@ -18,3 +18,39 @@
   }
 
 }
+
+.box-dev {
+  display: inline-flex;
+  margin-top: 56px;
+  width: 888px;
+  height: 155px;
+  gap: 24px;
+
+  img {
+      width: 48px;
+      height: 48px;
+    padding-bottom: 20px;
+  }
+}
+
+.box-dev span {
+  font: var(--text-title-sm);
+  color: var(--color-base-gray-600);
+}
+
+.box-dev p {
+  font: var(--text-sm);
+  color: var(--color-base-gray-500);
+}
+
+.card-dev {
+  width: 280px;
+  height: 155px;
+  border: 2px solid #16181D;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: start;
+}
+
+
+
