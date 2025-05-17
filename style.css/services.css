@@ -1,7 +1,8 @@
 .services{
-  display: block;
-  padding-top: 88px;
+  display:block;
 
+  padding-top: 88px;
+  
   max-width: 100%;
   height: 480px;
   background-color: var(--color-base-gray-100);
@@ -12,7 +13,7 @@
     font-size: 24px;
   }
 
-  h1 {
+  p {
     font: var(--text-title-md);
     color: var(--color-base-gray-600);
   }
@@ -20,16 +21,16 @@
 }
 
 .box-dev {
-  display: inline-flex;
+  display:inline-grid;
+  grid-template-columns: 280px 280px 280px;
+
   margin-top: 56px;
   width: 888px;
   height: 155px;
   gap: 24px;
 
   img {
-      width: 48px;
-      height: 48px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
   }
 }
 
@@ -41,16 +42,16 @@
 .box-dev p {
   font: var(--text-sm);
   color: var(--color-base-gray-500);
+  padding-top: 8px;
+
 }
 
 .card-dev {
-  width: 280px;
-  height: 155px;
+  display: block;
   border: 2px solid #16181D;
   border-radius: 12px;
   padding: 20px;
   text-align: start;
 }
-
 
 
