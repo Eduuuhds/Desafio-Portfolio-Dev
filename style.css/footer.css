@@ -1,5 +1,4 @@
 footer {
-  display:inline-block;
   text-align: center;
   margin-top: 128px;
   
@@ -24,39 +23,48 @@ footer {
 
 .contato{
   margin-bottom:48px;
-  gap: 8px;
 
   span{
     font: var(--text-subtitle);
     font-size: 24px;
     color: var(--color-purple);
+    padding-bottom: 8px;
   }
 
   h1{
     font: var(--text-title-md);
     font-size: 29px;
     color: var(--color-base-gray-600);
+    padding-bottom: 8px;
   }
 
 
 }
 
 .social{
-  display:inline-grid;
-  grid-template-areas: 400px 400px 400px 400px;
-  gap: 16px;
-  height: 68px;
+  display: grid;
+  place-items: center;
+  gap: 16px;  
 }
 
 .social-button{
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 12px;
-
   padding: 20px;
   border-radius: 8px;
   background-color: var(--color-base-gray-300);
   width: 400px;
   height: 68px;
-  
+ 
+  span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+ }
+}
+
+.social-button:hover{
+background-color:rgba(135, 142, 161, 0.349);
 }
